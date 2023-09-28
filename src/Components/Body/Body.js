@@ -43,6 +43,7 @@ function Body() {
         const textOutput = convertToTextFromMorse(morseInput);
         setOutput(textOutput);
         setIsDisplay(true)
+        copied && setCopied(false)
     }
 
     // Function to convert a single character to Morse code
