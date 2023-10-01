@@ -95,7 +95,7 @@ function Body() {
                     </textarea>
                 </div>
                 <div className='gen-wrapper'>
-                    <button className='btn'  onClick={isDecode && Input ? decodeMorseToText : encodeTextToMorse }>Generate</button>
+                    <button className='btn'  onClick={isDecode && Input ? decodeMorseToText : encodeTextToMorse }>{isDecode ? "Decode"  : "Encode"}</button>
                 </div>
                 {(isDisplay && Output) ? (
                     <div>

@@ -75,6 +75,11 @@ textarea{
 }
 @media screen and (max-width: 480px){
     textarea{
-        height: calc(80vh - 70px);
+        height: calc(500px - 70px);
+    }
+    .output-text{
+        height: 200px;
+        max-height: 100%;
+        
     }
 }
