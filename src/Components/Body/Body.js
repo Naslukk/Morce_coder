@@ -122,6 +122,14 @@ function Body() {
                     </div>
                 ) : ""}
             </div>
+            <amp-ad width="100vw" height="320"
+                type="adsense"
+                data-ad-client="ca-pub-6498728354273010"
+                data-ad-slot="7302819061"
+                data-auto-format="rspv"
+                data-full-width="">
+                <div overflow=""></div>
+            </amp-ad>
         </div>
     )
 }
